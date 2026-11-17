@@ -9,13 +9,14 @@ From that, a ton of smaller questions formed, and I realized I'd need a very str
 
 So... I'm building one!
 
-- [**kalon**](https://github.com/smttyZ/kalon): the header-only C++ math library the project is built on.
-- [**Lambda Physics Engine**](https://github.com/smttyZ/Lambda-Physics-Engine): a scene-based C++ physics engine on top of kalon (very early development).
-- [**Project-Lambda**](https://github.com/smttyZ/Project-Lambda): the research itself, and the future home of the agents, along with other future ideas.
-
-I also built a Rust server designed to breathe some life into older systems, called [**Cortex**](https://github.com/smttyZ/Cortex). Give it a try on old hardware that's just lying around!
+- [**kalon**](https://github.com/smttyZ/kalon): the header-only C++ math library everything is built on. Every number, vector and matrix lives here.
+- [**Lambda Physics Engine**](https://github.com/smttyZ/Lambda-Physics-Engine): a deterministic, scene-based physics engine on top of kalon. It's meant to be a black box that just steps the world forward (very early development).
+- [**taxis**](https://github.com/smttyZ/taxis): the layer above the engine that sets up a simulation, runs it, and collects the results (just a placeholder for now).
+- [**Project-Lambda**](https://github.com/smttyZ/Project-Lambda): the umbrella for the whole thing: the paper, the results, and everything I learn along the way.
 
 **Ever wondered what the true empirical stats of your Honkai: Star Rail teams are?** Me too! So I built a tool that tells you exactly that! [**NouSR**](https://github.com/smttyZ/nousr): is a deterministic, turn-by-turn battle simulator for Memory of Chaos. It plays out every action on the game's own clock, uses [Fribbels' optimizer](https://github.com/fribbels/hsr-optimizer) for the damage math, and runs on your real account scan.
+
+I also built a Rust server designed to breathe some life into older systems, called [**Cortex**](https://github.com/smttyZ/Cortex). Give it a try on old hardware that's just lying around!
 
 **On top of that:** I'm building a PoE security camera system with its own custom server and NAS, and working on some Swift projects too... so stay tuned.
 
