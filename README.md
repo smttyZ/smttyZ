@@ -15,7 +15,11 @@ So... I'm building one!
 
 I also built a Rust server designed to breathe some life into older systems, called [**Cortex**](https://github.com/smttyZ/Cortex). Give it a try on old hardware that's just lying around!
 
+**Ever wondered what the true empirical stats of your Honkai: Star Rail teams are?** Me too! So I built a tool that tells you exactly that! [**NouSR**](https://github.com/smttyZ/nousr): is a deterministic, turn-by-turn battle simulator for Memory of Chaos. It plays out every action on the game's own clock, uses [Fribbels' optimizer](https://github.com/fribbels/hsr-optimizer) for the damage math, and runs on your real account scan.
+
 **On top of that:** I'm building a PoE security camera system with its own custom server and NAS, and working on some Swift projects too... so stay tuned.
+
+
 
 If you'd like to reach out, for any reason, you can contact me at:
 
